@@ -4,7 +4,7 @@ import { createNft, mplTokenMetadata } from "@metaplex-foundation/mpl-token-meta
 import * as dotenv from 'dotenv';
 dotenv.config();
 
-import wallet from "../Turbin3-wallet.json"
+import wallet from "./wallet/Turbin3-wallet.json"
 import base58 from "bs58";
 
 // const RPC_ENDPOINT = "https://api.devnet.solana.com";
